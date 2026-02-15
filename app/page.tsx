@@ -1,9 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import ImageUpload from '@/components/ImageUpload';
-import Dashboard from '@/components/Dashboard';
-import LoadingAnalysis from '@/components/LoadingAnalysis';
+import ImageUpload from '../components/ImageUpload';
+import Dashboard from '../components/Dashboard';
+import LoadingAnalysis from '../components/LoadingAnalysis';
 
 interface Feedback {
   overall_score: number;
